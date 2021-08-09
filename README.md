@@ -20,13 +20,9 @@ python SSH_Spider.py
 
 下载文件后，在代码中添加上你自己的 Server酱 key 就行了， Server酱 key 的申请地址为：[http://sc.ftqq.com/](http://sc.ftqq.com/)
 
-### 如何实现公告监测？
+### 原理 ###
 
-首先在 vps 上下载安装该工具，之后设置定时任务即可。比如我想在每天的上午 9 点获取一下各大 SRC 有没有新的公告：
-
-1、输入`crontab -e`
-
-2、在打开的界面中输入`00 9 * * * python3 /root/OnTimeHacker/OnTimeHacker.py`即可。
+![principle](./image/principle.jpg)
 
 ### 扫描结果 ###
 
