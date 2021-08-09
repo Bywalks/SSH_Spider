@@ -5,7 +5,9 @@
 ### Install ###
 
 ```
-python -m pip install -r requirements.txt
+1：企业内部安全自查公私钥配置情况
+
+2：攻防演练拿下某点时，通过该工具批量拿下内网Linux主机
 ```
 
 ### 开始使用 ###
@@ -22,7 +24,7 @@ python SSH_Spider.py
 
 ### 原理 ###
 
-![principle](./image/principle.jpg)
+![principle](./image/principle.png)
 
 ### 扫描结果 ###
 
