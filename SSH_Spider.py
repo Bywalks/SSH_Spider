@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 '''
 Program：SSH_Spider
-Function：通过公私钥SSH批量登录IP，在每台登录主机执行命令，把执行的命令提取放到本地
+Function：通过公私钥SSH批量登录IP，在每台登录主机执行命令，把执行的命令提取放到本地，若登录主机存在id_rsa和konwn_hosts文件，则再以登录主机为跳板，继续SSH连接下一层的小工具
  
 Version：Python3
 Time：2021/8/9
