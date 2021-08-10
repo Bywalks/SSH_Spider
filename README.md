@@ -31,7 +31,7 @@ python -m pip install -r requirements.txt
 
 ### 原理 ###
 
-![principle](./image/principle.png)
+![principle](./image/principle.jpg)
 
 ### 扫描结果 ###
 
